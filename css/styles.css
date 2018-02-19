@@ -1,0 +1,176 @@
+body {
+  	max-width: 876px;
+  	margin: 0 auto;
+  	font-family: helvetica, sans-serif;
+  	color: #030609;
+	background-color: #f6f6f6;
+}
+header {
+	text-align: center;
+}
+h1 {
+	font-size: 36px;
+	text-transform: uppercase;
+	margin: 8px 0 36px 0;
+}
+h2 {
+	font-size: 28px;
+	margin: 33px 0 14px 0;
+}
+h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 45px 0 0 0;
+}
+p {
+	font-size: 20px;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	line-height: 1.35;
+	margin: 22px 0 0 0;
+}
+ul {
+	font-size: 18px;
+	line-height: 1.35;
+	padding-left: 0px;
+	margin: 35px 0 0 0;
+}
+hr {
+	color: #030609;
+	background-color: #030609;
+	height: 1px;
+	border: none;
+}
+section {
+	max-width: 730px;
+	margin: 20px auto 55px;
+	padding: 0 23px;
+}
+img {
+	padding: 5px;
+	border: 1px solid #222222;
+	/*margin: 0 auto;*/
+}
+
+.stand-out {
+	font-weight: 700;
+	font-style: italic;
+}
+.thick {
+	height: 5px;
+	margin: 20px 23px 52px 23px
+}
+.links {
+	text-align: center;
+	/*padding: 52px 0 0 0;*/
+	margin: 0 auto;
+}
+.link-item {
+	display: inline;
+	font-weight: 700;
+}
+.stand-out {
+	font-style: italic;
+}
+.dates {
+	font-size: 16px;
+}
+.visible-s {
+	display: none;
+}
+.job {
+	/*font-size: 18px;*/
+	list-style-type: square;
+	margin-left: 30px;
+}
+.job-description {
+		margin-top: 5px;
+}
+.profile-image {
+	float: right;
+	margin: 22px 0 0 20px;
+}
+.portfolio-image {
+	display: block;
+	margin-top: 30px;
+	object-fit: scale-down; /* <----- why wont this work? */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+	color: #030609;
+}
+a:visited {
+    color: #030609;
+}
+a:hover {
+    color: OrangeRed;
+}
+a:active {
+	color: FireBrick;
+}
+
+/*or 695px*/
+@media (max-width: 608px) {
+	h2 {
+		font-size: 26px;
+	}
+	h3 {
+		text-align: center;
+	}
+	p {
+		font-size: 18px;
+		line-height: 1.5;
+	}
+	section {
+		text-align: center;
+	}
+	ul {
+		list-style-type: none;
+		padding-left: 0px;
+		margin: 45px 0 0 0;
+	}
+	li {
+		line-height: 1.5;
+	}
+	.job {
+		font-size: 18px;
+		text-align: left;
+		list-style-type: none;
+		padding-left: 0px;
+		margin: 45px 0 0 0;
+	}
+	.profile-image {
+		float: none;
+		margin: 50px 0 0 0;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	object-fit: scale-down;
+	}
+	.visible-s {
+		display: block;
+	}
+	.portfolio-image {
+		margin-top: 20px;
+		margin-right: 30px; /* <----- why wont this work? */
+		max-width: 100%;
+		max-height: 100%;
+	}
+	.job-description {
+		margin-top: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
