@@ -52,6 +52,7 @@ img {
 	/*margin: 0 auto;*/
 }
 
+
 .stand-out {
 	font-weight: 700;
 	font-style: italic;
@@ -93,9 +94,23 @@ img {
 .portfolio-image {
 	display: block;
 	margin-top: 30px;
-	object-fit: scale-down; /* <----- why wont this work? */
     margin-left: auto;
     margin-right: auto;
+}
+.div-margin-a {
+	margin: 29px 0 27px 0;
+}
+.div-margin-b {
+	margin: -4px 23px 0 23px;
+}
+.div-margin-c {
+	margin-top: -10px;
+}
+.div-margin-d {
+	margin: 45px 0 32px 0;
+}
+.ul-margin-a {
+	margin: 32px 0 0 0;
 }
 
 a:link {
@@ -134,6 +149,7 @@ a:active {
 	li {
 		line-height: 1.5;
 	}
+
 	.job {
 		font-size: 18px;
 		text-align: left;
